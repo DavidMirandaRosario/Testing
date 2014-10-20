@@ -6,8 +6,15 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		6315533019C0C8400090C2F8 /* Testing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6315532E19C0C8400090C2F8 /* Testing.cpp */; };
+		6315533119C0C8400090C2F8 /* Testing.h in Headers */ = {isa = PBXBuildFile; fileRef = 6315532F19C0C8400090C2F8 /* Testing.h */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		6315532719C0C8300090C2F8 /* libTesting.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libTesting.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		6315532E19C0C8400090C2F8 /* Testing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Testing.cpp; sourceTree = "<group>"; };
+		6315532F19C0C8400090C2F8 /* Testing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Testing.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -25,6 +32,8 @@
 			isa = PBXGroup;
 			children = (
 				6315532819C0C8300090C2F8 /* Products */,
+				6315532E19C0C8400090C2F8 /* Testing.cpp */,
+				6315532F19C0C8400090C2F8 /* Testing.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -43,6 +52,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6315533119C0C8400090C2F8 /* Testing.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +107,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6315533019C0C8400090C2F8 /* Testing.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
